@@ -1,0 +1,217 @@
+
+.box{
+  border: 5px solid #ccc;
+  padding: 150px;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+  height:700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+.auth-container{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  height: 70px;
+}
+.password-input {
+  width: 100px; /* Adjust the width as needed */
+}
+h1{
+  background-color: white;
+}
+
+
+.bi.bi-person-fill::before {
+  font-size: 6rem; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+}
+
+.pin-input {
+  width: 25px;
+  background-color: white;
+}
+.row {
+  width: 200px;
+  margin-bottom: 15px;
+
+}
+.selected-auth{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  
+}
+.col{
+  background-color: white;
+  margin-bottom: 20px;
+}
+.pin-button {
+  background-color: white;
+  color:black; /* White text color */
+  border: 3px solid black; /* Remove default button border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 16px; /* Adjust font size as needed */
+  align-items: center;
+  margin-bottom: 10px;
+}
+.selected-auth{
+  background-color: white;
+}
+
+
+
+  
+
+.forgot{
+  background-color: white;
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+}
+.auth-option:hover{
+  background-color: pink;
+}
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.container button:hover {
+  background-color: pink;
+}
+.forgotpin{
+  background-color: white;
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.password-input {
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.add-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+  font-size: large;
+}
+
+.underline {
+  text-decoration: underline;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.container {
+  width: 50%; /* Adjust the width as per your preference */
+  margin: 0 auto;
+}
+
+.box1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 800px;
+}
+
+h2 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.form-group1,
+.form-group2,
+.form-group3,
+.form-group4,
+.form-group5,
+.form-group6,
+.form-group7,
+.form-group8,
+.form-group9,
+.form-group10 {
+  margin-bottom: 15px;
+}
+.form-group11{
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 15px;;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="address"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.form-group5 label {
+  font-weight: bold;
+}
+.error {
+  color: red;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
+
